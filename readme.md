@@ -30,6 +30,7 @@ If you don't have composer, you can get it from [Composer](https://getcomposer.o
 To migrate Database after set Database name and access in .env file
 ```
 php artisan migrate
+php artisan migrate:refresh --seed  to migrate and insert seed langouage
 
 ```
 
